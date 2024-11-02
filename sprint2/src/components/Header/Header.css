@@ -1,0 +1,29 @@
+:root {
+  --Cyan: hsl(179, 62%, 43%);
+  --Cyan-Clear: hsl(179, 43%, 51%);
+  --Bright-Yellow: hsl(71, 73%, 54%);
+  --Light-Gray: hsl(204, 43%, 93%);
+  --Gray: hsl(0, 0%, 77%);
+  --Grayish-Blue: hsl(218, 22%, 67%);
+  --white: hsl(0, 0%, 100%);
+}
+
+.header {
+  background-color: var(--white);
+  padding: 40px;
+  border-radius: 8px 8px 0 0;
+}
+
+.header__title--one {
+  font-size: 26px;
+  color: var(--Cyan);
+}
+
+.header__title--two {
+  padding: 20px 0;
+  color: var(--Bright-Yellow);
+}
+
+.header__paragraph {
+  color: var(--Grayish-Blue);
+}

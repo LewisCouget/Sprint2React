@@ -1,13 +1,17 @@
-import { useState } from "react";
-import Header from "./components/header";
-import Main from "./components/Main";
-function App() {
+import React, { useState } from "react";
+import "../index.css";
+import Header from "./components/Header/Header";
+import Main from "./components/Main/Main";
+import Section from "./components/Section/Section";
+const App = () => {
   return (
     <>
-      <Header />
-      <Main />
-      <Section />
+      <div className="grid-container">
+        <Header />
+        <Main />
+        <Section />
+      </div>
     </>
   );
-}
+};
 export default App;
